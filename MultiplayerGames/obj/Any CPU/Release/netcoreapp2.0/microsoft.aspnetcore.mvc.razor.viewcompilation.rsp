@@ -1,0 +1,6 @@
+D:\Code\SejeThomas\MultiplayerGames\MPG\MultiplayerGames
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=MultiplayerGames
+--content-root=D:\Code\SejeThomas\MultiplayerGames\MPG\MultiplayerGames
+--file=D:\Code\SejeThomas\MultiplayerGames\MPG\MultiplayerGames\Views\Home\Index.cshtml
+--file=D:\Code\SejeThomas\MultiplayerGames\MPG\MultiplayerGames\Views\Shared\_Layout.cshtml

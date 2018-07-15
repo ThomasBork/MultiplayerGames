@@ -1,0 +1,52 @@
+﻿/* Global */
+
+.typer-game-players {
+    color: #101010;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+/* Names */
+
+.typer-game-players .names {
+    float: left;
+}
+
+.typer-game-players .names .name {
+    background-color: #20c070;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.typer-game-players .self.name {
+    background-color: aquamarine;
+}
+
+/* Strings */
+
+.typer-game-players .strings {
+    float: left;
+}
+.typer-game-players .strings .string {
+    background-color: #20c070;
+    padding: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.typer-game-players .strings .next {
+    color: #F0F0F0;
+    background-color: #101010;
+}
+.typer-game-players .self.string {
+    background-color: aquamarine;
+}
+
+/* Other */
+
+.typer-game-title {
+    font-size: 2em;
+}
+
+.btn-return-to-game-selection {
+    margin-top: 10px;
+}

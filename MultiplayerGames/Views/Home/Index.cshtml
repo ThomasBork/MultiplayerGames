@@ -1,0 +1,42 @@
+﻿@model List<MultiplayerGames.Models.GameTypeInfo>
+@{
+    Layout = "_Layout";
+}
+<div id="header">
+    <div class="logo">MultiplayerGames</div>
+    <div class="title"></div>
+    <div class="players-online">
+        <div class="text">Players online:</div>
+        <div class="text">@MultiplayerGames.Models.GameLobby.Instance.GetPlayerCount()</div>
+    </div>
+    <div class="account-info">
+        <div class="text">Playing as:</div>
+        <div class="name">Guest</div>
+    </div>
+</div>
+
+<div id="content">
+    <div id="game-selection" class="page">
+        <span class="page-title">Choose a game:</span><br />
+        @foreach (var info in Model)
+        {<div class="btn-game-type" attr-id="@info.ID">
+                <span class="title">@info.Name</span><br />
+                <span class="description">@info.Description</span>
+            </div>}
+    </div>
+
+    <div id="lobby" class="page">
+        <!--<input type="button" value="Join Typer Game" onclick="joinTyperGame();" />-->
+    </div>
+
+    <div id="pregame" class="page">
+        <span class="title">Players:</span>
+        <ul class="player-list"></ul>
+        <div class="btn btn-start-game">Start game</div>
+    </div>
+
+    <div id="game" class="page">
+    </div>
+
+    <span id="server-feedback"></span> <br />
+</div>
